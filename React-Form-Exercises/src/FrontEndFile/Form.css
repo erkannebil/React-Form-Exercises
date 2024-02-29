@@ -1,0 +1,32 @@
+.Formİtems {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    border: 8px solid white;
+    padding: 50px;
+    border-radius: 30px;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 50px;
+    
+}
+
+.Formİtems input:hover,
+.Formİtems input:focus {
+    background-color: aliceblue;
+    color: black;
+}
+
+.Formİtems button {
+    background-color: aliceblue;
+    color: black;
+}
+
+.Formİtems p {
+    color: white;
+    font-weight:bolder;
+    
+}
